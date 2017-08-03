@@ -126,6 +126,8 @@ public class Dragon {
                     }
                     else if (sb.toString().contains("rain")) {
                         System.out.println("Weather is rainy");
+                        System.out.println("Dragon: scaleThickness: " + scaleThickness + " clawSharpness: "
+                                + clawSharpness + " wingStrength: " + wingStrength + " fireBreath: " + fireBreath);
                         scaleThickness = 5;
                         clawSharpness = 10;
                         wingStrength = 5;
@@ -136,6 +138,8 @@ public class Dragon {
                     }
                     else if (sb.toString().contains("normal")) {
                         System.out.println("Weather is normal");
+                        System.out.println("Dragon: scaleThickness: " + scaleThickness + " clawSharpness: "
+                                + clawSharpness + " wingStrength: " + wingStrength + " fireBreath: " + fireBreath);
                         scaleThickness = 4;
                         clawSharpness = 2;
                         wingStrength = 4;
@@ -146,10 +150,12 @@ public class Dragon {
                     }
                     else if (sb.toString().contains("fog")) {
                         System.out.println("Weather is foggy");
-                        //TODO give us some fog, and we'll think of a solution
+                        //TODO need to see what happens when fog is given
                     }
                     else if (sb.toString().contains("dry")) {
                         System.out.println("Weather is dry");
+                        System.out.println("Dragon: scaleThickness: " + scaleThickness + " clawSharpness: "
+                                + clawSharpness + " wingStrength: " + wingStrength + " fireBreath: " + fireBreath);
                         scaleThickness = 10;
                         clawSharpness = 0;
                         wingStrength = 10;
